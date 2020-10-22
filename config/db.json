@@ -1,0 +1,26 @@
+{
+  "development": {
+    "mysql": {
+      "db_host": "mysql",
+      "db_user": "latona",
+      "db_pass": "latonalatona",
+      "db_name": "sukibaAnalytics"
+    },
+    "mongo": {
+      "host": "192.168.128.158",
+      "port": "27017"
+    }
+  },
+  "production": {
+    "mysql": {
+      "db_host": "localhost",
+      "db_user": "latona",
+      "db_pass": "latonalatona",
+      "db_name": "sukibaAnalytics"
+    },
+    "mongo": {
+      "host": "localhost",
+      "port": "27017"
+    }
+  }
+}
